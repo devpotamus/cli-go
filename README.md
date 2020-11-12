@@ -9,9 +9,16 @@ a cli for go
 
 ## Build
 
+Either:
+```bash
+make all
+```
+or:
 ```bash
 make deps
-make all
+make build
+make fmt
+make lint
 ```
 
 ## Installation
